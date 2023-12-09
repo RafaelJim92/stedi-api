@@ -36,7 +36,7 @@ spec:
             - name: REDIS_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: redis-secrets-raf
+                  name: redis-secrets-rafael
                   key: REDIS_PASS
             - name: REDIS_HOST
               value: "redis-stedi-raf"
